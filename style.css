@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Rubik&display=swap');
+
+/* Utility CSS */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    margin: 0 11.94%;
+}
+
+.navbar {
+    display: flex;
+    border: 1px solid black;
+}
+
+.navbar span {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.navbar>div:nth-of-type(1) {
+    gap: 1rem;
+}
+
+.navbar>div:nth-of-type(2) {
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar>div:nth-of-type(2)>img {
+    cursor: pointer;
+}
+
+.navbar ul {
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.navbar input {
+    border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .navbar input {
+        display: none;
+    }
+
+    .navbar>div:nth-of-type(1) {
+        margin-bottom: 1rem;
+    }
+
+    .navbar>div:nth-of-type(2) {
+        margin-left: 0;
+    }
+}
