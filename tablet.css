@@ -1,0 +1,9 @@
+@media screen and (max-width: 1400px) {
+    #banner__image {
+        display: none;
+    }
+
+    .hero__desc {
+        display: none;
+    }
+}

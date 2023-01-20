@@ -1,0 +1,64 @@
+/* Responsive CSS or Media Query */
+@media screen and (max-width: 969px) {
+    body {
+        margin: 0;
+    }
+
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        padding: 1rem 0;
+        margin-bottom: 0;
+    }
+
+    .navbar input {
+        display: none;
+    }
+
+    .navbar>div:nth-of-type(1) {
+        margin-bottom: 1rem;
+    }
+
+    .navbar>div:nth-of-type(2) {
+        margin-left: 0;
+    }
+
+    /* Banner */
+    .banner {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .banner__toast {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner__toast>span:nth-of-type(2) {
+        line-height: normal;
+        text-align: left;
+    }
+
+    .banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner>p:nth-of-type(1) {
+        color: #4F4F4F;
+        font-size: 0.8rem;
+    }
+
+    .banner__button {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .banner>p:nth-of-type(2) {
+        font-size: 0.8rem;
+    }
+}
