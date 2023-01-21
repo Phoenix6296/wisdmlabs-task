@@ -49,6 +49,20 @@
         padding: 1rem 3rem;
     }
 
+    /* Testimonials */
+    .testimonial {
+        padding: 2rem;
+    }
+
+    .testimonial__testimony {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonial__content {
+        flex-direction: column;
+    }
+
     /* Question */
     .question {
         margin: 2rem;
