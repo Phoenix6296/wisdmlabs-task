@@ -63,4 +63,18 @@
         font-size: 0.8rem;
         line-height: normal;
     }
+
+
+    /* Footer */
+    .footer {
+        padding: 2rem;
+    }
+
+    .footer__brand {
+        flex: 0.2;
+    }
+
+    .footer__content {
+        flex: 0.8;
+    }
 }

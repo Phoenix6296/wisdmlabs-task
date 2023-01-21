@@ -1,12 +1,5 @@
 @media screen and (max-width: 768px) {
 
-    html {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
     /* Navbar */
     .navbar {
         margin: 0;
@@ -81,12 +74,20 @@
         width: 90%;
     }
 
+    .count {
+        padding: 0 1rem;
+    }
+
     .count>h1 {
         font-size: 2rem;
     }
 
     .count>p {
         font-size: 1rem;
+    }
+
+    .count__boxes>* {
+        padding: 0px auto;
     }
 
     .count__boxes>div>h1 {
@@ -106,5 +107,20 @@
 
     .question>img {
         display: none;
+    }
+
+    /* Footer */
+    .footer__brand {
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__content {
+        flex: 1;
+    }
+
+    .footer__content li {
+        font-size: 0.8rem;
     }
 }

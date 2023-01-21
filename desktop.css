@@ -259,10 +259,6 @@
     letter-spacing: 0.5px;
 }
 
-.question>div {
-    padding: 0 2rem;
-}
-
 .question h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
@@ -295,4 +291,47 @@
     border-radius: 10px;
     color: white;
     cursor: pointer;
+}
+
+
+/* Footer */
+.footer {
+    background: #094B72;
+    display: flex;
+    padding: 2rem 11rem;
+    color: #EEEFF4;
+}
+
+.footer__brand {
+    flex: 0.5;
+}
+
+.footer_brand__icon {
+    width: fit-content;
+    gap: 1rem;
+}
+
+.footer_brand__icon span {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 23px;
+    letter-spacing: 1.5px;
+}
+
+.footer__content {
+    flex: 0.5;
+    justify-content: space-evenly;
+}
+
+.footer__content h3 {
+    margin-bottom: 2rem;
+}
+
+.footer__content li {
+    margin: 2rem 0;
+    font-size: 0.9rem;
+}
+
+.footer__content ul {
+    list-style: none;
 }
