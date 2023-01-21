@@ -109,6 +109,12 @@
         display: none;
     }
 
+    .question__button {
+        width: fit-content;
+        height: fit-content;
+        padding: 1rem;
+    }
+
     /* Footer */
     .footer {
         padding: 2rem 0;
@@ -130,6 +136,7 @@
 
     /* Copyright */
     .copyright {
+        padding: 1rem;
         font-size: 0.7rem;
     }
 
