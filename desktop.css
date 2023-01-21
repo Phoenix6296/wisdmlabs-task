@@ -300,10 +300,7 @@
     display: flex;
     padding: 2rem 11rem;
     color: #EEEFF4;
-}
-
-.footer__brand {
-    flex: 0.5;
+    justify-content: space-between;
 }
 
 .footer_brand__icon {
@@ -319,8 +316,11 @@
 }
 
 .footer__content {
-    flex: 0.5;
     justify-content: space-evenly;
+}
+
+.footer__content div {
+    margin: 0 1rem;
 }
 
 .footer__content h3 {
@@ -334,4 +334,22 @@
 
 .footer__content ul {
     list-style: none;
+}
+
+/* Copyright */
+.copyright {
+    padding: 0 11rem;
+    font-size: 0.875rem;
+    background: #094B72;
+    justify-content: space-between;
+    color: white;
+}
+
+.copyright img {
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.copyright div {
+    display: flex;
 }

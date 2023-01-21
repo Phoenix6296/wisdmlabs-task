@@ -77,4 +77,10 @@
     .footer__content {
         flex: 0.8;
     }
+
+
+    /* Copyright */
+    .copyright {
+        padding: 2rem;
+    }
 }

@@ -87,7 +87,7 @@
     }
 
     .count__boxes>* {
-        padding: 0px auto;
+        padding: 0px auto !important;
     }
 
     .count__boxes>div>h1 {
@@ -122,5 +122,10 @@
 
     .footer__content li {
         font-size: 0.8rem;
+    }
+
+    /* Copyright */
+    .copyright {
+        font-size: 0.7rem;
     }
 }
