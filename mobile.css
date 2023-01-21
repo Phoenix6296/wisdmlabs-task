@@ -1,5 +1,12 @@
 @media screen and (max-width: 768px) {
 
+    html {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     /* Navbar */
     .navbar {
         margin: 0;
@@ -72,5 +79,32 @@
 
     .help__boxes>* {
         width: 90%;
+    }
+
+    .count>h1 {
+        font-size: 2rem;
+    }
+
+    .count>p {
+        font-size: 1rem;
+    }
+
+    .count__boxes>div>h1 {
+        font-weight: 800;
+        font-size: 2rem;
+    }
+
+    .count__boxes>div>p {
+        font-size: 0.6rem;
+    }
+
+
+    /* Question */
+    .question {
+        padding: 0rem;
+    }
+
+    .question>img {
+        display: none;
     }
 }

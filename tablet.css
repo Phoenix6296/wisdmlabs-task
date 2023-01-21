@@ -27,6 +27,7 @@
     /* Help */
     .help {
         padding: 1rem;
+        padding-bottom: 3rem;
         flex-direction: column;
     }
 
@@ -43,4 +44,23 @@
         margin: 1rem;
     }
 
+    .count__boxes>* {
+        flex-direction: column;
+        padding: 1rem 3rem;
+    }
+
+    /* Question */
+    .question {
+        margin: 2rem;
+    }
+
+    .question h1 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .question>div>p {
+        font-size: 0.8rem;
+        line-height: normal;
+    }
 }
