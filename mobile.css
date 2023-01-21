@@ -110,6 +110,10 @@
     }
 
     /* Footer */
+    .footer {
+        padding: 2rem 0;
+    }
+
     .footer__brand {
         display: none;
         align-items: center;
