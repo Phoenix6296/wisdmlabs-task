@@ -75,7 +75,7 @@
     }
 
     .count {
-        padding: 0 1rem;
+        padding: 1rem;
     }
 
     .count>h1 {
@@ -87,7 +87,7 @@
     }
 
     .count__boxes>* {
-        padding: 0px auto !important;
+        padding: 1rem;
     }
 
     .count__boxes>div>h1 {
@@ -127,5 +127,9 @@
     /* Copyright */
     .copyright {
         font-size: 0.7rem;
+    }
+
+    .copyright img {
+        margin: 0.2rem;
     }
 }
