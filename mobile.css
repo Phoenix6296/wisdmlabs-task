@@ -1,14 +1,10 @@
-/* Responsive CSS or Media Query */
-@media screen and (max-width: 969px) {
-    body {
-        margin: 0;
-    }
+@media screen and (max-width: 768px) {
 
     /* Navbar */
     .navbar {
+        margin: 0;
         flex-direction: column;
         padding: 1rem 0;
-        margin-bottom: 0;
     }
 
     .navbar input {
@@ -25,6 +21,7 @@
 
     /* Banner */
     .banner {
+        margin: 0;
         padding: 1rem;
         display: flex;
         flex-direction: column;
@@ -60,5 +57,20 @@
 
     .banner>p:nth-of-type(2) {
         font-size: 0.8rem;
+    }
+
+    /* Help */
+    .help {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    .help__content>h1 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .help__boxes>* {
+        width: 90%;
     }
 }

@@ -1,4 +1,21 @@
 @media screen and (max-width: 1400px) {
+
+    /* Navbar */
+    .navbar {
+        margin: 0 2rem;
+        margin-bottom: 3rem;
+    }
+
+    /* Banner */
+    .banner {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+    }
+
     #banner__image {
         display: none;
     }
@@ -6,4 +23,24 @@
     .hero__desc {
         display: none;
     }
+
+    /* Help */
+    .help {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .help__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .help__content>h1 {
+        margin: 1rem;
+    }
+
 }
