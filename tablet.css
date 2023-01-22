@@ -1,4 +1,22 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width:1400px) {
+    #banner__image {
+        display: none;
+    }
+
+    .hero__desc {
+        display: none;
+    }
+
+    .help__boxes>* {
+        width: 100%;
+    }
+
+    .help {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
 
     /* Navbar */
     .navbar {
@@ -43,6 +61,8 @@
     .help__content>h1 {
         margin: 1rem;
     }
+
+
 
     .count__boxes>* {
         flex-direction: column;
